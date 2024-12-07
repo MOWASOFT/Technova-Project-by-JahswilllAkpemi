@@ -9,7 +9,7 @@
     background-image: linear-gradient(rgba(3, 21, 5, 0.8) ,rgba(3, 21, 5, 0.8)), url(headerpic.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 109vh;
+    min-height: 90vh;
 }
 
 .navbar{
@@ -71,7 +71,7 @@ ul li a:hover{
     width: 90%;
     color:white;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
