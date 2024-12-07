@@ -9,7 +9,7 @@
     background-image: linear-gradient(rgba(3, 21, 5, 0.8) ,rgba(3, 21, 5, 0.8)), url(headerpic.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .navbar{
@@ -119,6 +119,7 @@ ul li a:hover{
 .About-col{
     flex-basis: 48%;
     padding: 30px 2px;
+    margin: 15px;
 }
 .About-col img{
     width: 100%;
@@ -127,6 +128,7 @@ ul li a:hover{
 .About-col h2{
     padding-top: 0px;
     color: #03ef00;
+    font-size: 32px;
 }
 .About-col p{
     padding: 15px 0 25px;
@@ -151,3 +153,126 @@ ul li a:hover{
     border-radius: 10px;
     transition: 1s;
 }
+.services {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #031505;
+   
+}
+
+.services h2{
+    color: #03ef00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.services p{
+    color: white;
+    padding: 10px;
+}
+
+.row1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.servicescol {
+    flex-basis: 31%;
+    background: #03CC00;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.servicescol h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.leadership {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.leadership h2{
+    color: #03ef00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.leadership p{
+    padding: 10px;
+}
+.leadcol {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.leadcol img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.leadcol p{
+    padding: 0;
+}
+
+.leadcol h3{
+    margin-top: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+    background-color: #031505;
+    height: 20vh;
+}
+
+.contact h2{
+    color: #03ef00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contact p{
+    padding: 10px;
+}
+span{
+    color: #03ef00;
+    font-weight: 500;
+}
+.btn-head2{
+    display: inline-block;
+    text-decoration: none;
+    color: #03ef00;
+    border: 1px solid #03ef00;
+    padding: 12px 50px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-head2:hover{
+    border: 1px solid #03ef00;
+    background-color: #03ef00;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
